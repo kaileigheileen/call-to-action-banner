@@ -1,12 +1,54 @@
 html {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  overflow: hidden;
+  position: relative;
+  max-height: 500px;
+}
+
+.banner-head {
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 1em;
+  top: .5em;
+  left: 50%;
+  width: 100%;
+  max-width: 50em;
+  padding: 0 1.5em;
+}
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: inherit;
+  float: left;
+}
+
+.btn:hover {
+  color: white;
+  float: right;
+}
+
+.btn-big {
+  background-color: #fff;
+}
+
 body {
+  margin: 0;
 }
